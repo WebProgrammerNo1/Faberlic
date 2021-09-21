@@ -1,0 +1,689 @@
+@import '../menuList/menulist.css';
+
+
+.dnone{
+    display: none;
+}
+.dblock{
+    display:block !important;
+}
+p, span{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.twoiconnone{
+    display: none;
+}
+
+.Wrapper
+{
+    width: 100%;
+    height: 220px;
+    z-index: 2030;
+    background-color: #ffff;
+    position: fixed;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+
+}
+.boxmini1 a{
+    color: black;
+}
+.boxmini1 a:hover{
+    color: black;
+}
+
+.box1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #FF3D71;
+}
+.box1 p{
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box1 span{
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #ffff;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px 0 15px;
+    cursor: pointer;
+}
+.box1 .closebox{
+    cursor: pointer;
+} 
+.box1 .closebox .MuiSvgIcon-root{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 25px;
+    margin: 15px 0 10px;
+}
+.box2 .minibox1
+{
+    display: flex;
+    margin:0 120px 0 50px;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    color: #797979;
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+}
+.box2 .minibox1 .miniboxx
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 7px 0;
+}
+.box2 .minibox1 span{font-size: 25px;}
+
+.box2 .minibox1 .miniboxx:hover
+{
+    background-color: #111;
+    color: #ffff;
+}
+.box2 .minibox1 .p2:hover
+{
+    background-color: #111;
+    color: #ffff;
+}
+.box2 .minibox1 .miniboxx .map
+{
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 .minibox2
+{
+    display: flex;
+    margin: 0 20px;
+}
+.box2 .minibox2 a
+{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #9b9b9b;
+    letter-spacing: 0.5px;
+}
+.box2 .minibox2 a:hover 
+{
+    color: #111;
+}
+.box2 .minibox3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.box2 .minibox3 a
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #9b9b9b;
+    letter-spacing: 0.5px;
+}
+.span1{
+    font-size: 19px;
+    margin: 0 0 0 10px;
+}
+.box2 .minibox3 a:hover
+{
+    text-decoration: underline;
+    color: #111;
+}
+.box3 
+{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    margin-top: 0;
+}
+.child1
+{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    margin-left: 40px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.child1 img
+{
+    padding-left: 10px;
+}
+.spanbox{
+    width: 60px;
+    padding:0 0 10px 5px;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transform-origin: left;
+    justify-content: center;
+    transition: 0.5s;
+}
+.spanbox .MuiSvgIcon-root {
+    font-size: 40px;
+}
+.child2
+{
+    display: flex;
+    width: 45%;
+    height: 95%;
+    margin-left: 20px;
+    position: relative;
+}
+.box3 input
+{
+    background-color: #fff;
+    border: 1px solid #c5cee0;
+    outline: none;
+    width: 90%;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin: 3px 0 0 40px;
+    z-index: 2;
+    color: #000;
+    transition: all 0.5s ease;
+}
+.box3 input.active1
+{
+    width: 90%;
+    transform: scale(1.07);
+}
+.box3 .search
+{
+    position: absolute;
+    display: grid;
+    height: 30px;
+    font-size: 10px;
+    color: #797979;
+    width: 30px;
+    top: 13px;
+    margin-left: 45px;
+    place-items: center;
+    z-index: 3;
+    transition: all 0.5s ease;
+}
+.box3 .search.active1
+{
+    margin-left: 19px;
+    transform: scale(1.1);
+}
+.child3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 40px 0 10px;
+    width: 15%;
+    height: 100%;
+}
+.child3 .boxmini1
+{
+    width: 30%;
+    cursor: pointer;
+    height: 100%;
+}
+.child3 .boxmini1:hover h4
+{
+    color: #111;
+    font-weight: 600;
+}
+.child3 .boxmini1 h4
+{
+    font-size: 12px;
+    color: #797979;
+    font-weight: 400;
+}
+.child3 .boxmini1 .icon2
+{
+    font-size: 40px;
+}
+.box4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+}
+.box4 ul
+{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin:0 20px;
+    border-bottom: 1px solid #2e3a59;
+}
+.box4 ul a
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    overflow: hidden;
+    height: 44px;
+    color: #2e3a59;
+    padding: 0 10px 15px;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+}
+.box4 ul a::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #2e3a59;
+    border-radius: 10px;
+    bottom: 15px;
+    left: 0;
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+    transition: opacity 300ms, transform 300ms;
+    
+}
+
+.box4 ul a:hover::after{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.Wrapper.active 
+{
+    position: fixed;
+    top: -40px;
+}
+.input-group-text {
+    border-right: none;
+    border-radius: 5px;
+    margin-top: 3px !important;
+    border: 1px solid #c5cee0;
+    padding: 10px 0 3px 20px !important;
+    background-color:#fff !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-left: none;
+}
+#basic-addon1 .MuiSvgIcon-root {
+    display: inline-block;
+    font-size: 30px;
+    flex-shrink: 0;
+    user-select: none;
+    color: #8f9bb3;
+}
+
+
+
+@media only screen and (min-width:960px) and ( max-width: 1025px){
+    .container {
+       width: 100%;
+    }
+    .twoiconnone{
+        display: block;
+    }
+    .Wrapper{
+        height: 100px;
+    }
+    .topbar{
+        padding: 0 40px !important;
+    }
+
+    .child1 img {
+        width: 100%;
+    }
+    .child1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .box4{
+        display: none;
+    }
+
+    .child2{
+        display: none;
+    }
+    .child3{
+        margin-right: 80px;
+    }
+    
+
+    .boxmini1 h4{
+        display: none;
+    }
+    .boxmini1{
+        margin: 0 -84px;
+    }
+    .spanbox{
+        padding: 0 0 10px 0;
+    }
+
+    .box3 input {
+        outline: none;
+        width: 85%;
+        border: none;
+    }
+
+    .box3 .input-group-text {
+        border: none;
+    }
+    .menu{
+        display: block;
+    }
+    .ipadNone{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and ( max-width: 960px){
+	.container {
+		width: 100%;
+	}
+    .twoiconnone{
+        display: block;
+    }
+
+    .Wrapper{
+        height: 100px;
+    }
+    .topbar{
+        padding: 0 40px !important;
+    }
+
+    .child1 img {
+        width: 150%;
+    }
+    .child1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .box4{
+        display: none;
+    }
+
+    .child2{
+        display: none;
+    }
+    .child3{
+        margin-right: 80px;
+        margin: 23px 80px 0 10px;
+    }
+
+    .boxmini1 h4{
+        display: none;
+    }
+   
+    .boxmini1{
+        margin: 0 -84px;
+    }
+    .spanbox{
+        padding: 0 0 10px 0;
+    }
+
+    .box3 input {
+        outline: none;
+        width: 80%;
+        border: none;
+    }
+
+    .box3 .input-group-text {
+        border: none;
+    }
+    .menu{
+        display: block;
+    }
+    .ipadNone{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:500px) and ( max-width: 768px){
+	.container {
+		width: 100%;
+	}
+    .twoiconnone{
+        display: block;
+    }
+
+    .Wrapper{
+        height: 100px;
+    }
+    .topbar{
+        padding: 0 40px !important;
+    }
+
+    .child1 img {
+        width: 170%;
+    }
+    .child1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .box4{
+        display: none;
+    }
+
+    .child2{
+        display: none;
+    }
+    .child3{
+        margin-right: 80px;
+        margin: 28px 80px 0 10px;
+    }
+
+    .boxmini1 h4{
+        display: none;
+    }
+   
+    .boxmini1{
+        margin: 0 -84px;
+    }
+    .spanbox{
+        padding: 0 0 10px 0;
+    }
+
+    .box3 input {
+        outline: none;
+        width: 80%;
+        border: none;
+    }
+
+    .box3 .input-group-text {
+        border: none;
+    }
+    .menu{
+        display: block;
+    }
+    .ipadNone{
+        display: none;
+    }
+
+    .spanbox .MuiSvgIcon-root {
+        font-size: 25px;
+    }
+
+    .child3 .boxmini1 .icon2 {
+        font-size: 25px;
+    }
+
+    .box1 p {
+        font-size: 16px;
+    }
+
+    .box1 .closebox .MuiSvgIcon-root {
+        font-size: 35px;
+    }
+
+}
+@media only screen and (min-width:360px) and ( max-width:500px ){
+	.container {
+		width: 100%;
+	}
+    .twoiconnone{
+        display: block;
+    }
+    .Wrapper{
+        height: 100px;
+    }
+    .topbar{
+        padding: 0 25px !important;
+    }
+
+    .child1 img {
+        width: 200%;
+        margin-bottom: 5px;
+    }
+    .child1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .box4{
+        display: none;
+    }
+
+    .child2{
+        display: none;
+    }
+    .child3{
+        width: 0%;
+        margin: 23px 80px 0 10px;
+    }
+
+
+    .boxmini1 h4{
+        display: none;
+    }
+   
+    .boxmini1{
+        margin: 0 -70px;
+    }
+    .spanbox{
+        padding: 0 0 10px 0;
+    }
+
+    .box3 input {
+        outline: none;
+        width: 60%;
+        border: none;
+    }
+
+    .box3 .input-group-text {
+        border: none;
+        padding-left: 0 !important;
+    }
+    .menu{
+        display: block;
+    }
+    .ipadNone{
+        display: none;
+    }
+
+    .spanbox .MuiSvgIcon-root {
+        font-size: 25px;
+    }
+
+    .child3 .boxmini1 .icon2 {
+        font-size: 25px;
+    }
+
+    .box1 span {
+        width: 70px;
+    }
+    .box1 p {
+        font-size: 12px;
+    }
+
+    .box1 .closebox .MuiSvgIcon-root {
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+ 
+    
+   
+
+
+  
+
+
+/* // import TextField from '@material-ui/core/TextField';
+// import Autocomplete from '@material-ui/lab/Autocomplete';
+// const options = ['UZ', 'RUS', "ENG"];
+
+// const [value, setValue] = useState(options[0]);
+// const [inputValue, setInputValue] = useState(''); */
+ /* <div>
+        <Autocomplete
+            value={value} onChange={(event, newValue) => {setValue(newValue);}}
+            inputValue={inputValue} onInputChange={(event, newInputValue) => {setInputValue(newInputValue);}}
+            // id="controllable-states-demo"
+            options={options}
+            style={{ width: 100 }}
+            renderInput={(params) => <TextField {...params}/>}
+        />
+    </div>  */

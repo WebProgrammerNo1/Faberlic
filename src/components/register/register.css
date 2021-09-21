@@ -1,0 +1,390 @@
+.MuiFormLabel-root {
+    font-size: 12px !important;
+}
+
+.register
+{
+    width: 100%;
+    height: 800px;
+    margin-top: 200px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-1
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left2
+{
+    height: 100%;
+}
+.left2 img
+{
+    height: 700px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.right2
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right2 h1
+{
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.right2 .row
+{
+    width: 70%;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+    height: 720px;
+    background-color: #fff;
+}
+.right2 .row .col-6
+{
+    margin-top: 5px;
+    height: 55px;
+    display: flex;
+}
+.right2 .row .col-8
+{
+    margin-top: 5px;
+    height: 55px;
+    display: flex;
+}
+
+.right2 .row .col-8 .searchbox
+{
+    display: flex;
+    right: 0px;
+    margin-top: 10px;
+    width: 160px;
+    margin-right: 5px;
+    height: 27px;
+    border: 1.5px solid ;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d6d6d6;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    cursor: pointer;
+}
+.right2 .row .col-8 .searchbox .searchicon
+{
+    color: #b9b9b9;
+    font-size: 20px;
+    margin-right: 7px;
+}
+.right2 .row .col-8 .searchbox h4
+{
+    color: #595959;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.MuiFormLabel-root 
+{
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}  
+.right2 .row .col-8 .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 50%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+.right2 .row .col-7
+{
+    display: flex;
+    width: 100%;
+    height: 55px;
+}
+.right2 .row .col-7 .col-4
+{
+    margin-right: 30px;
+    width: 50%;
+}
+.right2 .row .col-7 .col-5
+{
+    width: 50%;
+}
+
+.right2 .row h5
+{
+    color: #888;
+    font-weight: 400;
+    height: 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+}
+.right2 .row .Chekbox1
+{
+    display: flex;
+    align-items: center;  
+    height: 50px;
+    margin-bottom: 10px;  
+    overflow: hidden;
+    justify-content: flex-start;
+}
+.right2 .row .Chekbox1 p
+{
+    color: #888;
+    font-size: 14px;
+}
+.right2 .row .Chekbox2
+{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+.right2 .row .Chekbox2 p
+{
+    color: #888;
+    font-size: 14px;
+}
+.right2 .row .MuiCheckbox-colorSecondary.Mui-checked {
+    color: #999;
+}
+.right2 .row input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.right2 .row .regbtn
+{
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #000;
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.right2 .row .regbtn:hover
+{
+    background: #303030;
+    background-image: initial;
+    background-position: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+    box-shadow: 0 0 12px 0 rgb(47 47 47 / 67%);
+}
+.right2 .row .regbtn .link
+{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.right2 .row .link1
+{
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+}
+.right2 .row .h5
+{
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.right2 .row .h5 .link2
+{
+    color: #111;
+}
+
+@media only screen and (min-width:768px) and ( max-width:960px ){
+    .container {
+       width: 100%;
+    }
+
+    .register {
+        margin-top: 90px;
+    }
+
+    .left2 img {
+        height: 450px;
+    }
+
+    .right2 .row .col-8 {
+        width: auto;
+    }
+
+    .right2 .row .regbtn {
+        width: 100%;
+    }
+
+    .right2 .row h5 {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width:500px) and ( max-width: 768px){
+    .container {
+       width: 100%;
+    }
+
+    .register{
+        height: 100%;
+        margin-top: 600px;
+    }
+    
+    .container-1{
+        flex-direction: column;
+    }
+
+    .left2 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left2 img {
+        height: 550px;
+        float: none;
+        margin: 130px 0 0 47px;
+    }
+
+    .right2 .row {
+        width: 177%;
+        margin-left: 0;
+    }
+
+    .right2 .row .col-7 .col-5
+{
+    width: 41.666666666666%;
+}
+
+    .right2 {
+        margin: 0 0 585px 30px;
+    }
+
+    .right2 .row .col-6 {
+        width: 100%;
+    }
+
+    .right2 .row .regbtn {
+        width: 100%;
+    }
+
+    .right2 .row .Chekbox2 {
+        height: 95px;
+    }
+    
+}
+@media only screen and (min-width:360px) and ( max-width: 500px){
+    .container {
+       width: 100%;
+    }
+
+    .register{
+        height: 100%;
+        margin-top: 540px;
+    }
+    
+    .container-1{
+        flex-direction: column;
+    }
+
+    .left2 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left2 img {
+        height: 430px;
+        float: none;
+        margin: 130px 0 0 20px;
+    }
+
+    .right2 .row {
+        width: 177%;
+        margin-left: 0;
+    }
+
+    .right2 .row .col-7 .col-5
+{
+    width: 41.666666666666%;
+}
+
+    .right2 {
+        margin: 0 0 585px 30px;
+    }
+
+    .right2 .row .col-6 {
+        width: 100%;
+    }
+
+    .right2 .row .regbtn, .col-8 {
+        width: 100%;
+    }
+
+    .right2 .row .regbtn {
+        height: 50px;
+        margin: -13px 0 0 0;
+    }
+    .col-8 {
+        width: 100% !important;
+    }
+
+    .right2 .row .Chekbox2 {
+        height: 125px;
+    }
+    
+}
