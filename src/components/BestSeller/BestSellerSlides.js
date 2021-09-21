@@ -5,6 +5,7 @@ import seller1 from "../../images/BestSeller/seller1.jpg"
 import seller2 from "../../images/BestSeller/seller2.jpg"
 import seller3 from "../../images/BestSeller/seller3.jpg"
 import FavoriteBorderIcon from '@material-ui/icons/Favorite';
+import { IconButton, Tooltip } from '@material-ui/core';
 
 class BestSellerSlides extends Component {
     state = {
@@ -42,8 +43,12 @@ class BestSellerSlides extends Component {
                 <Carousel breakPoints={this.breakPoints}>
               {items.map(item => <div className="item" key={item.id}>
                 <div className="product-top" >
-                      <p className="price">Xit</p>
-                      <FavoriteBorderIcon className="heart"/>
+                      <p className="price d-flex align-items-center px-3">Xit</p>
+                      <Tooltip title="Tanlangan royxatga qo'shish">
+                        <IconButton>
+                            <FavoriteBorderIcon className="heart"/>
+                        </IconButton>
+                       </Tooltip>
                   </div>
                   <a href="/#">
                   <img src={item.img} alt="alt" />
@@ -120,7 +125,7 @@ const BestSellerSlidesStyled = styled.div`
     padding: 10px;
     gap: 10px;
     z-index: 3;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .price{

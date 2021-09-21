@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Product1 from "../../images/Products/product1.jpg"
 import Product2 from "../../images/Products/product2.jpg"
 import FavoriteBorderIcon from '@material-ui/icons/Favorite';
+import { IconButton, Tooltip } from '@material-ui/core';
 class ProductSlides extends Component {
     state = {
       items: [
@@ -40,9 +41,13 @@ class ProductSlides extends Component {
                 <Carousel className="carousel" breakPoints={this.breakPoints}>
               {items.map(item => <div className="item" key={item.id}>
                 <div className="product-top" >
-                      <p className="new">New</p>
-                      <p className="price">Super price</p>
-                      <FavoriteBorderIcon className="heart"/>
+                      <p className="new d-flex align-items-center px-3">New</p>
+                      <p className="price d-flex align-items-center px-3">Super price</p>
+                      <Tooltip title="Tanlangan royxatga qo'shish">
+                        <IconButton>
+                            <FavoriteBorderIcon className="heart"/>
+                        </IconButton>
+                       </Tooltip>
                   </div>
                   <a href="/#">
                   <img src={item.img} alt="alt" />
